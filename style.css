@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+  }
+  body{
+    /* background-color: #080e24; */
+    background: url(img2.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .main{
+    margin: 100px auto;
+    width: 500px;
+    height: 500px;
+    /* border: 1px solid #1623df; ; */
+    position: relative;
+    background: black;
+    border-radius: 500px;
+  }
+  @keyframes rotate360{
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+  .part1{
+    width: 500px;
+    height: 500px;
+    /* border: 1px solid #ccc; */
+    border-radius: 50%;
+    position: absolute;
+    animation: rotate360 18s 0.2s linear infinite;
+  }
+  .part1dot{
+    width: 30px;
+    height: 30px;
+    background-color: #e8873d;
+    border-radius: 50%;
+    position: fixed;
+    left: 315px;
+  }
+    /* part2 */
+  .part2{
+    width: 440px;
+    height: 440px;
+    /* border: 1px solid #ccc; */
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    animation: rotate360 16s  linear infinite;
+  }
+  .part2dot{
+    width: 20px;
+    height: 20px;
+    background-color: #9ea5a9;
+    border-radius: 50%;
+    position: absolute;
+    left: 277px;
+  }
+
+  /* part3  earth*/
+  .part3{
+    width: 380px;
+    height: 380px;
+    /* border: 1px solid #ccc; */
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    animation: rotate360 11s 0.5s infinite linear;
+  }
+  .part3dot{
+    width: 22px;
+    height: 22px;
+    background-color: skyblue;
+    border-radius: 50%;
+    position: absolute;
+    left: 240px;
+    animation: rotate360 3s infinite linear;
+  }
+  .dotmoon{
+    width: 7px;
+    height: 7px;
+    background: white;
+    position: inherit;
+    top: -10px;
+    border-radius: 50%;
+  }
+
+  /* part4 */
+  .part4{
+    width: 320px;
+    height: 320px;
+    /* border: 1px solid #ccc; */
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    animation: rotate360 12s 0.6s linear infinite;
+  }
+  .part4dot{
+    width: 20px;
+    height: 20px;
+    background-color: #c57676;
+    border-radius: 50%;
+    position: absolute;
+    left: 202px;
+  }
+
+  /* part5 */
+  .part5{
+    width: 260px;
+    height: 260px;
+    /* border: 1px solid #d3c3c3; */
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    animation: rotate360 10s linear infinite;
+  }
+  .part5dot{
+    width: 20px;
+    height: 20px;
+    background-color: #b29595;
+    border-radius: 50%;
+    position: absolute;
+    left: 163px;
+  }
+
+  /* part6 */
+  .part6{
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid #ccc; */
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    animation: rotate360 9s linear infinite;
+  }
+  .part6dot{
+    width: 17px;
+    height: 17px;
+    background-color: #f3f4cf;
+    border-radius: 50%;
+    position: absolute;
+    left: 124px;
+  }
+
+  /* part7 */
+  .part7{
+    width:  100px;
+    height: 100px;
+    background: rgb(255, 225, 0);
+    box-shadow: 0 0 100px 20px rgb(255, 225, 0);
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    animation: rotate360 3s linear infinite;
+  }
+  
+  
